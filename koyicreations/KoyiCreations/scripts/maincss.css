@@ -1,0 +1,54 @@
+
+/*
+====== Contents ======
+1. INITIALISATION
+2. GRID SYSTEM
+====== Contents ======
+-----------------------------------------------------------------------------------------*/
+/*=== INITIALISATION ===*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#2b2b2b;  color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+td,th,caption { font-size:14px; }
+h1,h2,h3,h4,h5,h6 { font-weight:normal; font-size:100%; }
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input,textarea,select,button { font:14px Verdana, Helvetica, Arial, sans-serif; }
+table { border-collapse:collapse; }
+
+/*=== GRID SYSTEM ===*/
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+.span12 { width: 100%; }
+.span11 { width: 91.53%; }
+.span10 { width: 83.06%; }
+.span9 { width: 74.6%; }
+.span8 { width: 66.13%; }
+.span7 { width: 57.66%; }
+.span6 { width: 49.2%; }
+.span5 { width: 40.73%; }
+.span4 { width: 32.26%; }
+.span3 { width: 23.8%; }
+.span2 { width: 15.33%; }
+.span1 { width: 6.866%; }
+
+body {
+background-image: url("../assets/3px-tile.png");
+}
